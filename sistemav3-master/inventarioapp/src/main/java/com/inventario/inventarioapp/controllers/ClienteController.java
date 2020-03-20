@@ -6,6 +6,7 @@ import java.util.Optional;
 import com.inventario.inventarioapp.models.entities.Cliente;
 import com.inventario.inventarioapp.models.services.ClienteServiceImpl;
 
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -19,6 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("api/clientes")
 public class ClienteController {
+   
     @Autowired
     private ClienteServiceImpl clienteService;
 
