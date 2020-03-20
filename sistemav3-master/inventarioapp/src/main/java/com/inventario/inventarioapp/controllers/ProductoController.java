@@ -51,6 +51,7 @@ public class ProductoController {
     @RequestMapping(value="/{id}", method = RequestMethod.DELETE)
     public void eliminar(@PathVariable("id") Long id){
         productoService.delete(id);
+        
     }
 
 }
