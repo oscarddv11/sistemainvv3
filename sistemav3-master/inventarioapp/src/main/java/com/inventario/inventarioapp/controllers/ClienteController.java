@@ -49,6 +49,7 @@ public class ClienteController {
     @RequestMapping(value="/{id}", method = RequestMethod.DELETE)
     public void eliminar(@PathVariable("id") Long id){
         clienteService.delete(id);
+        
     }
 
 }
