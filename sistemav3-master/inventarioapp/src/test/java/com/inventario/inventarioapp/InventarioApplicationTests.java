@@ -10,4 +10,6 @@ class InventarioApplicationTests {
 	void contextLoads() {
 	}
 
+	
+	
 }
