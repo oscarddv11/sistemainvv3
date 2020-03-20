@@ -1,6 +1,8 @@
 package com.inventario.inventarioapp.models.entities;
 
+
 import java.io.Serializable;
+
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
